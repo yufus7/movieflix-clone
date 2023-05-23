@@ -12,7 +12,7 @@ function Navbar() {
     <nav className='navbar'>
       <div className='container nav-container'>
         <div className='nav-left'>
-          <img className='nav-logo' src={Logo} alt='' />
+          {/* <img className='nav-logo' src={Logo} alt='' /> */}
           <div className='nav-menu'>
             <a href='#'>Home</a>
             <a href='#'>TV Shows</a>
