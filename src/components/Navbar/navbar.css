@@ -1,0 +1,92 @@
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  transition: all 200ms ease;
+}
+
+.window-scroll {
+  background: black;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.nav-left a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.nav-logo {
+  display: block;
+  width: 8rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.nav-items a {
+  color: white;
+}
+
+.nav-icon {
+  font-size: x-large;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-profile {
+  width: 2.2rem;
+  border-radius: 0.2rem;
+}
+
+/*------------------------------Responsive------------------------------*/
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
