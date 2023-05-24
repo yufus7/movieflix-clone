@@ -12,7 +12,7 @@ function Navigation() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route element={<Layout />}>
+        <Route path='/movieflix-clone/' element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='*' element={<Error />} />
         </Route>

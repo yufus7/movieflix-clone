@@ -26,7 +26,7 @@ function Navbar() {
           <img className='nav-logo' src={Logo} alt='' />
           <div className='nav-menu'>
             <NavLink
-              to='/'
+              to='/movieflix-clone/'
               style={({ isActive }) => {
                 return {
                   color: isActive ? 'white' : '',
@@ -36,7 +36,7 @@ function Navbar() {
               Home
             </NavLink>
             <NavLink
-              to='/tv-shows'
+              to='/movieflix-clone/tv-shows'
               style={({ isActive }) => {
                 return {
                   color: isActive ? 'white' : '',
@@ -46,7 +46,7 @@ function Navbar() {
               TV Shows
             </NavLink>
             <NavLink
-              to='/movies'
+              to='/movieflix-clone/movies'
               style={({ isActive }) => {
                 return {
                   color: isActive ? 'white' : '',
@@ -56,7 +56,7 @@ function Navbar() {
               Movies
             </NavLink>
             <NavLink
-              to='/new-popular'
+              to='/movieflix-clone/new-popular'
               style={({ isActive }) => {
                 return {
                   color: isActive ? 'white' : '',
@@ -66,7 +66,7 @@ function Navbar() {
               New & Popular
             </NavLink>
             <NavLink
-              to='/my-list'
+              to='/movieflix-clone/my-list'
               style={({ isActive }) => {
                 return {
                   color: isActive ? 'white' : '',
@@ -96,7 +96,7 @@ function Navbar() {
           <ul>
             <li>
               <NavLink
-                to='/'
+                to='/movieflix-clone/'
                 style={({ isActive }) => {
                   return {
                     color: isActive ? 'white' : '',
@@ -108,7 +108,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to='/tv-shows'
+                to='/movieflix-clone/tv-shows'
                 style={({ isActive }) => {
                   return {
                     color: isActive ? 'white' : '',
@@ -120,7 +120,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to='/movies'
+                to='/movieflix-clone/movies'
                 style={({ isActive }) => {
                   return {
                     color: isActive ? 'white' : '',
@@ -132,7 +132,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to='/new-popular'
+                to='/movieflix-clone/new-popular'
                 style={({ isActive }) => {
                   return {
                     color: isActive ? 'white' : '',
@@ -144,7 +144,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to='/my-list'
+                to='/movieflix-clone/my-list'
                 style={({ isActive }) => {
                   return {
                     color: isActive ? 'white' : '',
