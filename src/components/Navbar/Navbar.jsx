@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import { NavLink } from 'react-router-dom';
 
 import Logo from '../../assets/logo.png';
 import Avatar from '../../assets/avatar.png';
@@ -24,11 +25,56 @@ function Navbar() {
         <div className='nav-left'>
           <img className='nav-logo' src={Logo} alt='' />
           <div className='nav-menu'>
-            <a href='/#'>Home</a>
-            <a href='/#'>TV Shows</a>
-            <a href='/#'>Movies</a>
-            <a href='/#'>New & Popular</a>
-            <a href='/#'>My List</a>
+            <NavLink
+              to='/'
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? 'white' : '',
+                };
+              }}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to='/tv-shows'
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? 'white' : '',
+                };
+              }}
+            >
+              TV Shows
+            </NavLink>
+            <NavLink
+              to='/movies'
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? 'white' : '',
+                };
+              }}
+            >
+              Movies
+            </NavLink>
+            <NavLink
+              to='/new-popular'
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? 'white' : '',
+                };
+              }}
+            >
+              New & Popular
+            </NavLink>
+            <NavLink
+              to='/my-list'
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? 'white' : '',
+                };
+              }}
+            >
+              My List
+            </NavLink>
           </div>
         </div>
         <div className='nav-right'>
@@ -49,19 +95,64 @@ function Navbar() {
         <div className='mobile-menu'>
           <ul>
             <li>
-              <a href='/#'>Home</a>
+              <NavLink
+                to='/'
+                style={({ isActive }) => {
+                  return {
+                    color: isActive ? 'white' : '',
+                  };
+                }}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href='/#'>TV Shows</a>
+              <NavLink
+                to='/tv-shows'
+                style={({ isActive }) => {
+                  return {
+                    color: isActive ? 'white' : '',
+                  };
+                }}
+              >
+                TV Shows
+              </NavLink>
             </li>
             <li>
-              <a href='/#'>Movies</a>
+              <NavLink
+                to='/movies'
+                style={({ isActive }) => {
+                  return {
+                    color: isActive ? 'white' : '',
+                  };
+                }}
+              >
+                Movies
+              </NavLink>
             </li>
             <li>
-              <a href='/#'>New & Popular</a>
+              <NavLink
+                to='/new-popular'
+                style={({ isActive }) => {
+                  return {
+                    color: isActive ? 'white' : '',
+                  };
+                }}
+              >
+                New & Popular
+              </NavLink>
             </li>
             <li>
-              <a href='/#'>My List</a>
+              <NavLink
+                to='/my-list'
+                style={({ isActive }) => {
+                  return {
+                    color: isActive ? 'white' : '',
+                  };
+                }}
+              >
+                My List
+              </NavLink>
             </li>
           </ul>
         </div>

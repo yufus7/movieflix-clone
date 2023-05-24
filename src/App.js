@@ -1,15 +1,9 @@
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Trend from "./components/Trend/Trend";
+import Navigation from './navigation/Navigation'
 
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <Trend />
-    </>
+    <Navigation></Navigation>
   );
 }
 

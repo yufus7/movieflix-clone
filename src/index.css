@@ -1,19 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-  --color-p-red: #fc4445;
-  --color-primary: #191c24;
-  --color-black: #191c24;
-  --color-black-blue: #082740;
-  --color-blue: #0885cf;
-  --glass: rgba(255, 255, 255, 0.54);
-  --color-green: #198754;
-  --color-light: rgba(255, 255, 255, 0.6);
-  --color-pink: #ff0143;
-  --color-red: #d90429;
-  --color-white: #fff;
-  --color-yellow: #ffa801;
-  --color-yellow-light: #ffc107;
+  --color-logo: #e50914;
 
   --transition: all 400ms ease;
 
@@ -23,8 +11,6 @@
   --container-width-md: 85%;
   --container-width-sm: 90%;
   --container-width-xs: 95%;
-
-  --bg-img: url('https://images.hdqwalls.com/wallpapers/nature-beach-wallpaper.jpg');
 
   --box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
@@ -49,6 +35,10 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.page {
+  margin-top: 5rem;
 }
 
 /*------------------------------Responsive------------------------------*/
